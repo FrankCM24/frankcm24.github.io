@@ -136,7 +136,7 @@ img {
 .nav__logo,
 .nav__close,
 .nav__toggle,
-.nv__actions{
+.nav__actions{
   display: flex;
   color: var(--title-color);
   cursor: pointer;
