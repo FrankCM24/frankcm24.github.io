@@ -198,7 +198,10 @@ img {
   right: 1.5rem;
   font-size: 1.25rem;
 /* Show menu */
-
+.show-menu{
+  right: 0;
+}
+  
 
 /* Add blur header */
 
