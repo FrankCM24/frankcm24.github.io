@@ -215,6 +215,7 @@ img {
   -webkit-backdrop-filter: blur(16px);
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 /* Active link */
