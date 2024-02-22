@@ -35,6 +35,7 @@ const blurHeader = () =>{
                      : header.classList.remove('blur-header')
 }
 window.addEventListener('scroll', blurHeader)
+
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
   const scrollUp = document.getElementById('scroll-up')
@@ -43,6 +44,7 @@ const scrollUp = () =>{
                       : scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 
