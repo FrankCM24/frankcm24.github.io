@@ -572,7 +572,28 @@ color: var(--first-color);
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .container{
+    margin-inline: 1rem;
+  }
+  
+  .home__title{
+    font-size: 2rem;
+  }
+  .home__buttons{
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
 
+  .proyects__container{
+    grid-template-columns: 160px;
+    justify-content: center;
+  }
+
+  .footer__content{
+    grid-template-columns: max-content;
+  }
+}
 
 /* For medium devices */
 
