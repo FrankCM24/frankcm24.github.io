@@ -396,8 +396,32 @@ color: var(--first-color);
   transform: translateY(-.5rem);
 }
 /*=============== ETHICS ===============*/
+.ethics__container{
+  padding-top: 2rem;
+  row-gap: 2rem;
+}
 
+.ethics__img{
+  width: 270px;
+  filter: drop-shadow(var(--shadow-img));
+  justify-self: center;
+}
 
+.ethics__list{
+  display: grid;
+  row-gap: 1rem;
+}
+
+.ethics__item{
+  display: flex;
+  column-gap: .5rem;
+  align-items: flex-start;
+}
+
+.ethics__item i{
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
 /*=============== CONTACT ===============*/
 
 
